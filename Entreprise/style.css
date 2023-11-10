@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Arial', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-image: url("../img/wallpaper.jpg");
+}
+
+body {
+    font-family: "Arial";
+}
+
+header {
+    height: 30vh;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    position: absolute;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+}
+
+.navbar .nav-links ul li {
+    margin: 0 75px;
+}
+
+.profil {
+    justify-items: center;
+    background-color: beige;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.profil p {
+    padding: 20px;
+}
+
+
+.creation {
+    background-color: white;
+    margin: 0 20% 20% 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.creation h2 {
+    padding: 20px;
+}
+
+.liste-commande {
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.liste-commande h2 {
+    padding: 2%;
+}
+
+.num-commande {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.num-commande p {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    left: 50%;
+}
+
+.num-commande button {
+    background-color: gray;
+    color: black;
+    border-radius: 20px;
+    margin: 5px 5px 5px 100px;
+    padding: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+    background-color: #dddddd;
+}

@@ -1,0 +1,59 @@
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+section#left-side {
+    background-color: #D9D9D9;
+}
+
+#left-side h1 {
+    text-decoration: underline;
+}
+
+#left-side h1,
+#left-side h2 {
+    font-weight: normal;
+    text-align: center;
+}
+
+#left-side div#type,
+#left-side div#calibre,
+#left-side div#prix {
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#left-side #prix input[type="number"] {
+    width: 90px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#left-side #boutons {
+    text-align: center;
+}
+
+#left-side .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-side input[type="submit"],
+#left-side input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#left-side input[type="submit"]:hover,
+#left-side input[type="reset"]:hover {
+    background-color: #45a049;
+}

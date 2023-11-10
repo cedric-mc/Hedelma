@@ -1,0 +1,102 @@
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    margin-top: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("../img/wallpaper.jpg");
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    padding: 4px;
+}
+
+main {
+    padding: 10px;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+button {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+
+button {
+    display: inline-block;
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 1em;
+    appearance: none;
+    background-color: #f2f2f2;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 12px 12px;
+    padding-right: 20px;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    color: #555;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 20px;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+#client-btn {
+    background-color: #4CAF50;
+}
+
+#employee-btn {
+    background-color: #008CBA;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    box-shadow: 0px 0px 10px #333;
+}

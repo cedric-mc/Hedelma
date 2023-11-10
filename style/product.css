@@ -1,0 +1,116 @@
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#produit {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #D9D9D9;
+    margin: 10px 10% 10% 10%;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+
+}
+
+img.image-produit {
+    width: 200px;
+    height: 200px;
+    background-color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.details-produit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+}
+
+#cat-calibre {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-right: 500px;
+}
+
+.product-name {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.product-price {
+    margin-bottom: 10px;
+    align-self: flex-start;
+}
+
+.quantity-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.quantity-btn {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.quantity-input {
+    width: 50px;
+    text-align: center;
+    margin: 0 10px;
+    font-size: 20px;
+    border: none;
+}
+
+.add-to-cart-btn {
+    display: block;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #42FF00;
+    color: black;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.btn-return {
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    color: black;
+    margin-right: 60%;
+    margin-top: 10%;
+
+}
+
+.btn-return:hover {
+    background-color: #42FF00;
+    color: black;
+}
+
+.btn-return button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 20px;
+}

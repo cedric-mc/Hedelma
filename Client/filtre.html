@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="../style/filtre.css">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>FILTRES</h1>
+    <form method="post" action="filtre.php">
+        <div id="type">
+            <h2>Type</h2>
+            <input type="radio" name="type" value="fruit">Fruits<br>
+            <input type="radio" name="type" value="vegetable">Légumes<br>
+        </div>
+        <div id="prix">
+            <h2>Prix</h2>
+            <input type="number" id="prixMin" name="prixMin" placeholder="min"> € -
+            <input type="number" id="prixMax" name="prixMax" placeholder="max"> €
+        </div>
+        <div id="boutons">
+            <input type="submit" value="Filtrer">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+
+</html>
