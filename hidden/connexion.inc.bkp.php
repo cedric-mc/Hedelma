@@ -1,20 +1,13 @@
 <?php
-    /*
-    * création d'objet PDO de la connexion qui sera représenté par la variable $cnx
-    */
-    $user = "";
-    $pass = "";
-    try {
-        $cnx = new PDO('pgsql:host=;dbname=', $user, $pass);
-    }
-    catch (PDOException $e) {
-        echo "ERREUR : La connexion a échouée<br>";
-
-    /* Utiliser l'instruction suivante pour afficher le détail de erreur sur la
-    * page html. Attention c'est utile pour débugger mais cela affiche des
-    * informations potentiellement confidentielles donc éviter de le faire pour un
-    * site en production.*/
-    //    echo "Error: " . $e;
-
-    }
+$user = "";
+$password = "";
+$server = "";
+$bdd = "";
+$system = "";
+try {
+    $cnx = new PDO("$system:host=$server;dbname=$bdd;charset=utf8mb4", $user, $password);
+} catch (PDOException $e) {
+    echo "ERREUR : La connexion a échouée<br>";
+    echo "Error: $e<br>";
+}
 ?>
